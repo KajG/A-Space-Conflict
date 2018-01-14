@@ -9,7 +9,6 @@ public class PlayerHealthTextUI : MonoBehaviour {
 		health = GameObject.Find ("Player").GetComponent<PlayerHealth> ();
 		healthText = GetComponent<Text> ();
 	}
-	
 	void Update () {
 		healthText.text = "" + health.getHealth;
 	}

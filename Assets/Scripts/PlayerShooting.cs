@@ -11,7 +11,6 @@ public class PlayerShooting : MonoBehaviour {
 	private float attackTimer;
 	public List<Transform> muzzles = new List<Transform> ();
 	private FetchInput input;
-
 	void Start () {
 		input = Camera.main.GetComponent<FetchInput> ();
 	}

@@ -7,7 +7,6 @@ public class CameraFollowPlayer : MonoBehaviour {
 	void Start () {
 		player = GameObject.Find ("Player");
 	}
-
 	void Update () {
 		transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
 	}

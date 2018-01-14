@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ParallaxBackground : MonoBehaviour {
-
 	[SerializeField]private float scrollingSpeed;
 	[SerializeField]private float speed;
 	[Range(0.2f, 0.99f)][SerializeField]private float backgroundDistance;

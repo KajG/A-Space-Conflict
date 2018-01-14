@@ -12,10 +12,6 @@ public class EnemyHealthUI : MonoBehaviour {
 		slider.maxValue = enemyHealth.getHealth;
 		UpdateSlider ();
 	}
-	
-	void Update () {
-		
-	}
 	public void UpdateSlider(){
 		slider.value = enemyHealth.getHealth;
 	}

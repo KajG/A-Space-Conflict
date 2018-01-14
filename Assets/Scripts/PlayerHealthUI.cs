@@ -9,7 +9,6 @@ public class PlayerHealthUI : MonoBehaviour {
 		playerHealth = GameObject.Find ("Player").GetComponent<PlayerHealth> ();
 		healthBar = GetComponent<Image> ();
 	}
-	
 	void Update () {
 		healthBar.fillAmount = playerHealth.getHealth / 50;
 	}

@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 public class BeginTextFade : MonoBehaviour {
 	private Text text;
-
 	void Start () {
 		text = GetComponent<Text> ();
 		StartCoroutine (FadeText ());
